@@ -56,3 +56,14 @@ body{
      height: 220px;
     object-fit: cover;
 }
+
+.filter{
+     margin: 20px;
+}
+
+.filterBtn{
+     background-color: cadetblue;
+     padding: 10px 20px;
+     margin-right: 20px;
+     cursor: pointer;
+}

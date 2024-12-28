@@ -19,3 +19,24 @@
      - Tree Shaking - remove unused code
      - Diff dev and prod bundles
 
+# Food Ordering App
+
+
+/**
+ * Header
+ *  - Logo
+ *  - Nav Items
+ * Body
+ *  - Search
+ *  - RestaurantContainer
+ *    - RestaurandCard
+ *      - Image
+ *      - Name
+ *      - Rating
+ *      - Cuisine
+ * Footer
+ *  - Copyright
+ *  - Links
+ *  - Address
+ *  - Contact
+ */
