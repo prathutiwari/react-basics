@@ -1,6 +1,7 @@
 import { useState } from "react";
 import resList from "../utils/mockData";
 import RestaurantCard from "./RestaurantCard";
+import { Link } from "react-router";
 
 const Body = () => {
   const [listOfRestaurant, setListOfRestaurant] = useState(resList);
@@ -40,7 +41,10 @@ const Body = () => {
       </div>
       <div className="res-container">
         {filterRestaurant.map((restaurant) => (
-          <RestaurantCard key={restaurant.info.id} resData={restaurant} />
+          <Link key={restaurant.info.id} to={'/restaurants/' + restaurant?.info?.id}>
+            <RestaurantCard resData={restaurant} />
+          </Link>
+          
         ))}
       </div>
     </div>
